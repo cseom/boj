@@ -30,4 +30,5 @@ int	main(void)
 		printf("%d\n", max(d[0][n], d[1][n]));
 	}
 	return (0);
+	
 }
