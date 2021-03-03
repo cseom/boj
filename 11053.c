@@ -26,4 +26,5 @@ int	main(void)
 		result = max(result, d[i]);
 	printf("%d", result);
 	return (0);
+	
 }
