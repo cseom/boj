@@ -19,4 +19,5 @@ int	main(void)
 		printf("%d\n", d[n]);
 	}
 	return (0);
+	
 }
