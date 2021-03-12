@@ -1,0 +1,17 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int a[5000000];
+
+int	main(void)
+{
+	int n, k;
+	
+	scanf("%d %d", &n, &k);
+	for (int i = 0; i < n; i++)
+		scanf("%d", &a[i]);
+	sort(a, a + n);
+	printf("%d", a[k - 1]);
+	return (0);
+}
